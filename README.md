@@ -78,14 +78,14 @@ SBR_WEBDRIVER=https://your-brightdata-webdriver-endpoint
 streamlit run app.py
 ```
 ## 💡 Features
-# ✅ Works with both static & dynamic pages
-# ✅ Robust against structural changes in websites
-# ✅ Language-model-powered parsing
-# ✅ Optional captcha/IP bypass with Bright Data
-# ✅ Fully local — no API key needed if using Ollama
+### ✅ Works with both static & dynamic pages
+### ✅ Robust against structural changes in websites
+### ✅ Language-model-powered parsing
+### ✅ Optional captcha/IP bypass with Bright Data
+### ✅ Fully local — no API key needed if using Ollama
 
 ## 🔐 Handling Protected Sites
-# If a website has strong anti-bot protections (e.g., captchas, IP bans), enable the Bright Data method (see commented code in scraper.py) and configure your credentials.
+### If a website has strong anti-bot protections (e.g., captchas, IP bans), enable the Bright Data method (see commented code in scraper.py) and configure your credentials.
 
 ## 📁 Project Structure
 ```bash
@@ -98,13 +98,13 @@ ai-web-scraper/
 ```
 
 ## ✨ Use Cases
-# Market intelligence
-# Data aggregation
-# Real-time content extraction
-# News/article parsing with LLM
-# Research automation
+### Market intelligence
+### Data aggregation
+### Real-time content extraction
+### News/article parsing with LLM
+### Research automation
 
 # 📌 Notes
-# Make sure chromedriver is in the project directory or PATH.
-# Ollama must be running in the background for the LLM to work.
-# Avoid overloading the model with huge pages — DOM chunking is built-in.
+### Make sure chromedriver is in the project directory or PATH.
+### Ollama must be running in the background for the LLM to work.
+### Avoid overloading the model with huge pages — DOM chunking is built-in.
